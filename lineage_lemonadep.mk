@@ -37,4 +37,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus9Pro_EEA \
     PRIVATE_BUILD_DESC="OnePlus9Pro-user 11   release-keys"
 
-BUILD_FINGERPRINT := OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:11/RKQ1.201105.002/2105252217:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys

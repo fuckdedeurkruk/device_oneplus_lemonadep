@@ -34,5 +34,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_DENSITY := xxhdpi
 
+# TWRP
+-include device/oneplus/lemonadep/twrp/twrp.mk
+
 # inherit from the proprietary version
 -include vendor/oneplus/lemonadep/BoardConfigVendor.mk

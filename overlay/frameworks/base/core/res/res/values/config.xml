@@ -172,11 +172,11 @@
         <item>100.34</item>
         <item>109.48</item>
         <item>115</item>
-        <item>123.86</item>
-        <item>129.18</item>
-        <item>138.07</item>
-        <item>148.62</item>
-        <item>175.84</item>
+        <item>117.67</item>
+        <item>122.72</item>
+        <item>131.17</item>
+        <item>141.19</item>
+        <item>167.05</item>
         <item>234.9</item>
         <item>279</item>
         <item>300</item>
@@ -414,7 +414,7 @@
          non-empty, the same length as config_displayWhiteBalanceBaseThresholds, and contain
          non-negative numbers. -->
     <array name="config_displayWhiteBalanceDecreaseThresholds">
-        <item>0.15</item>
+        <item>0.05</item>
     </array>
 
     <!-- See DisplayWhiteBalanceController.

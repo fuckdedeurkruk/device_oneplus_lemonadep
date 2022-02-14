@@ -27,19 +27,12 @@ SOONG_CONFIG_ONEPLUS_LAHAINA_FOD_POS_X = 604
 SOONG_CONFIG_ONEPLUS_LAHAINA_FOD_POS_Y = 2828
 SOONG_CONFIG_ONEPLUS_LAHAINA_FOD_SIZE = 232
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_lemonadep
-TARGET_RECOVERY_DEVICE_MODULES := init_lemonadep
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_DENSITY := xxhdpi
-
-# TWRP
--include device/oneplus/lemonadep/twrp/twrp.mk
 
 # inherit from the proprietary version
 -include vendor/oneplus/lemonadep/BoardConfigVendor.mk

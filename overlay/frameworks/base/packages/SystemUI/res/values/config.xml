@@ -23,7 +23,4 @@
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
 
-    <!-- Whether to disable assist hint on lockscreen -->
-    <bool name="config_disableAssistHintOnLockscreen">true</bool>
-
 </resources>

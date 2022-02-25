@@ -523,4 +523,7 @@
        <item>2936</item>
        <item>110</item>
     </integer-array>
+
+     <!-- Whether to use old mobile type icons as default -->
+    <bool name="config_useOldMobileIcons">true</bool>
 </resources>

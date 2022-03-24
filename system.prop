@@ -1,5 +1,4 @@
 # OnePlus
-ro.build.product=OnePlus9Pro
 ro.product.brand=OnePlus
 ro.product.device=OnePlus9Pro
 ro.product.manufacturer=OnePlus

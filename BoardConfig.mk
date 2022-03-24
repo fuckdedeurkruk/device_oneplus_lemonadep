@@ -22,10 +22,6 @@ DEVICE_PATH := device/oneplus/lemonadep
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_lemonadep
-TARGET_RECOVERY_DEVICE_MODULES := init_lemonadep
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

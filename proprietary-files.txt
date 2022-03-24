@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus9ProOxygen_22.E.12_OTA_0120_all_2109102019_a211d7c24258e
+# All unpinned blobs below are extracted from OnePlus9ProOxygen_22.E.13_OTA_0130_all_2111112110_a28e911b11ec5
 
 # ACDB
 odm/etc/acdbdata/acdb_version
@@ -35,8 +35,6 @@ vendor/etc/bluetooth/nvm/1121hpnv10.bin
 vendor/etc/bluetooth/nvm/1122hpnv10.bin
 
 # Camera
-odm/lib64/camera/com.qti.sensor.imx481.so:vendor/lib64/camera/com.qti.sensor.imx481.so
-odm/lib64/camera/com.qti.sensor.s5k3m5.so:vendor/lib64/camera/com.qti.sensor.s5k3m5.so
 vendor/etc/camera/ashdr/ncf_pack_imx471.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx686.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx689.ncf
@@ -311,6 +309,7 @@ vendor/firmware/evass.mdt
 vendor/lib64/hw/goodix.fod.lahaina.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libgf_ud_hal.so
+vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 # Iris
 vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service
@@ -383,6 +382,9 @@ vendor/etc/libnfc-mtp-SN100.conf_20857
 vendor/etc/libnfc-mtp-SN100.conf_20858
 vendor/etc/libnfc-mtp-SN100.conf_20859
 vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf
+
+# ODM feature list
+odm/etc/odm_feature_list
 
 # Sensors
 vendor/etc/sensors/config/ak0991x_0.json

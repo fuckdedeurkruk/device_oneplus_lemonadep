@@ -35,6 +35,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 TARGET_SCREEN_HEIGHT := 3168
 TARGET_SCREEN_WIDTH := 1440
 
+
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro,oneplus9pro
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/mixer_paths.xml
@@ -43,14 +47,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.recovery.target.rc
 
-# OPFeature
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
-
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Inherit from oneplus sm8350-common
 $(call inherit-product, device/oneplus/sm8350-common/common.mk)
+
+# SetupWizard Overlay
+PRODUCT_PACKAGES += \
+    PixelSetupWizardStringsOverlay
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/lemonadep/lemonadep-vendor.mk)

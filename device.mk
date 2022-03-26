@@ -25,7 +25,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-evolution
+    $(LOCAL_PATH)/overlay-cherish
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -51,10 +51,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Inherit from oneplus sm8350-common
 $(call inherit-product, device/oneplus/sm8350-common/common.mk)
-
-# SetupWizard Overlay
-PRODUCT_PACKAGES += \
-    PixelSetupWizardStringsOverlay
 
 # SetupWizard Overlay
 PRODUCT_PACKAGES += \

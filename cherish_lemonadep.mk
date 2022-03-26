@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonadep device
 $(call inherit-product, device/oneplus/lemonadep/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 
 SKIP_ABI_CHECKS := true
-EVO_BUILD_TYPE := UNOFFICIAL
+CHERISH_BUILD_TYPE := UNOFFICIAL
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SUPPORTS_QUICK_TAP := true

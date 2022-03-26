@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_lemonadep.mk
+    $(LOCAL_DIR)/cherish_lemonadep.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_lemonadep-user \
-    evolution_lemonadep-userdebug \
-    evolution_lemonadep-eng
+    cherish_lemonadep-user \
+    cherish_lemonadep-userdebug \
+    cherish_lemonadep-eng

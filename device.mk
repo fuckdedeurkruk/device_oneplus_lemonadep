@@ -32,12 +32,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 3168
-TARGET_SCREEN_WIDTH := 1440
-
-
-# Override  OTA assert
-TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro,oneplus9pro
+TARGET_BOOT_ANIMATION_RES := 1440
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -49,12 +44,12 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Inherit from oneplus sm8350-common
-$(call inherit-product, device/oneplus/sm8350-common/common.mk)
-
 # SetupWizard Overlay
 PRODUCT_PACKAGES += \
     PixelSetupWizardStringsOverlay
+
+# Inherit from oneplus sm8350-common
+$(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/lemonadep/lemonadep-vendor.mk)

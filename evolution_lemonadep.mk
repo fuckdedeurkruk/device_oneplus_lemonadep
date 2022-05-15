@@ -24,13 +24,10 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-
-SKIP_ABI_CHECKS := true
-EVO_BUILD_TYPE := UNOFFICIAL
+EVO_BUILD_TYPE := OFFICIAL
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_BLUR := true
 
 PRODUCT_NAME := evolution_lemonadep
 PRODUCT_DEVICE := lemonadep

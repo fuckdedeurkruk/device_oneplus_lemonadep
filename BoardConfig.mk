@@ -32,5 +32,10 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_DENSITY := xxhdpi
 
+# Display Resolution
+TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_HEIGHT := 3216
+TARGET_SCREEN_WIDTH := 1440
+
 # inherit from the proprietary version
 -include vendor/oneplus/lemonadep/BoardConfigVendor.mk
